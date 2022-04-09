@@ -30,7 +30,7 @@ public class GetUserStatic {
 		    get("/users?page=2").
 		then().
 		    body("data[0].id",equalTo(7)).
-		    body("data.first_name",hasItems("Lindsay","Tobias")).
+		    body("data.first_name",hasItems("Lindsayy","Tobias")).
 		    
 		    log().all();
 		
